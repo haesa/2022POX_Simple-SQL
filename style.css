@@ -36,6 +36,8 @@ button {
 
 /* login */
 #content {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -46,6 +48,7 @@ button {
 #login {
   width: 600px;
   height: 300px;
+  margin-bottom: 16px;
   border: 2px solid black;
   border-radius: 20px;
 }
@@ -80,6 +83,10 @@ button {
   color: white;
   background-color: var(--primary-color);
   cursor: pointer;
+}
+
+.query {
+  color: red;
 }
 
 /* logout */
