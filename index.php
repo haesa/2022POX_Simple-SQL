@@ -23,7 +23,7 @@
         $massage = "";
         $_SESSION["username"] = $result["id"];
         if($result["id"] == "admin")
-          $_SESSION["flag"] = "POX{POWER_OF_XX_2022}";  
+          $_SESSION["flag"] = "POX{4crfcnuo3xb6wy10xwmg0291ukujwjro9}";  
       }
     } 
   }
