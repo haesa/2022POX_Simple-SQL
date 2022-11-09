@@ -85,37 +85,7 @@ button {
   cursor: pointer;
 }
 
-.query {
+#message {
+  margin-top: 16px;
   color: red;
-}
-
-/* logout */
-#logout {
-  width: 600px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid black;
-  border-radius: 20px;
-}
-
-#logout h2 {
-  font-size: 32px;
-  margin-bottom: 40px;
-}
-
-#logout p {
-  font-size: 20px;
-  font-weight: 100;
-  margin-bottom: 25px;
-}
-
-#logout button {
-  width: 80%;
-  padding: 16px 12px;
-  border-radius: 20px;
-  color: white;
-  background-color: var(--primary-color);
 }
